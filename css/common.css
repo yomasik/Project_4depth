@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+.txtc {text-align: center !important;}
+.txtl {text-align: left !important;}
+.txtr {text-align: right !important;}
+
+.block {display: block;}
+.inblock {display: inline-block;}
+.fl {float: left;}
+.fr {float: right;}
+
+.mt10 {margin-top: 10px !important;}
+.mt15 {margin-top: 15px !important;}
+.mt20 {margin-top: 20px !important;}
+.mt30 {margin-top: 30px !important;}
+.mt40 {margin-top: 40px !important;}
+.mt50 {margin-top: 50px !important;}
+
+.mb10 {margin-bottom:10px !important;}
+.mb20 {margin-bottom:20px !important;}
+.mb30 {margin-bottom:30px !important;}
+.mb40 {margin-bottom:40px !important;}
+.mb50 {margin-bottom:50px !important;}
+
+.mr10 {margin-right: 10px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr30 {margin-right: 30px !important;}
+.mr40 {margin-right: 40px !important;}
+.mr50 {margin-right: 50px !important;}
+
+.ml5 {margin-left: 5px !important;}
+.ml10 {margin-left: 10px !important;}
+.ml20 {margin-left: 20px !important;}
+.ml30 {margin-left: 30px !important;}
+.ml40 {margin-left: 40px !important;}
+.ml50 {margin-left: 50px !important;}
+
+/* 211202(s) */
+.pb10 {padding-bottom:10px !important}
+/* // 211202(e) */
+.pb20 {padding-bottom:20px !important}
+.pb30 {padding-bottom:30px !important}
+.pb40 {padding-bottom:40px !important}
+.pb50 {padding-bottom:50px !important}
+
+.pl10 {padding-left: 10px !important;}
+.pl20 {padding-left: 20px !important;}
+.pl25 {padding-left: 25px !important;}
+
+.pr5 {padding-right:5px !important;}
+.pr10 {padding-right: 10px !important;}
+.pr20 {padding-right: 20px !important;}
+.pr25 {padding-right: 25px !important;}
+
+
+.pt10 {padding-top:10px !important;}
+.pt20 {padding-top:20px !important;}
+.pt30 {padding-top:30px !important;}
+.pt40 {padding-top:40px !important;}
+.pt50 {padding-top:50px !important;}
+
+.pa32 {padding: 32px!important;}
+
+.vtlb {vertical-align:bottom !important;}
+.vtlm {vertical-align:middle !important;}
+.vtlt {vertical-align:top !important;}
+.vtltt {vertical-align:text-top !important;}
+.vtltb {vertical-align:text-bottom !important;}
+
+.bdrd5 {border-radius:5px!important;}
+.bdrd10 {border-radius:10px!important;}
+
+.bdr1_gray {border: 1px solid #707070!important;}
+/* 211112(s) */
+.bdr {border-right: 1px solid #dfdfdf!important;}
+.bdb {border-bottom: 1px solid #dfdfdf!important;}
+/* //211112(e) */
+
+
+.bg_lightgray {background-color:#ECECEC!important;}
+.bg_gray {background-color:#f9f9f9!important;}
+.bg_white {background-color:#FFFFFF!important;}
+.bg_lightblue {background-color: #F2F9FF!important;}
+.bg_darkblue {background-color: #3C4153!important;}
+.bg_blue {background-color: #0080ff!important;}
+
+
+.txt_black {color:#000000!important;}
+.txt_darkgray {color:#707070!important;}
+.txt_lightgray {color:#b7b7b7!important;}
+.txt_gray {color:#767676!important;}
+.txt_pink {color:#FF006F!important;}
+.txt_lightblue {color:#99B0C4!important}
+.txt_blue {color: #0080ff!important;}
+.txt_white {color:#fff!important;}
+
+
+.fw200 {font-weight:200;}
+.fw400 {font-weight:400;}
+.fw600 {font-weight:600!important;}
+.fw800 {font-weight:800!important;}
+
+.txt_s {font-size:0.9rem; margin-bottom:0.25rem;}
+.txt_m {font-size:1rem; }
+
+.bt01 {border-top:1px solid #ddd!important;}
+.bb01 {border-bottom:1px solid #eee!important;}
+.bt15 {border-top:15px solid #f7f7f7!important;}
+/* 211118(s) */
+.border_rt {border-right: 1px solid #dfdfdf!important;}
+.border_bt {border-bottom: 1px solid #dfdfdf!important;}
+/* //211118(e) */
+.w50 {width: 50%!important;}
+.w85 {width: 85%!important; word-break:keep-all!important;}
+.w100 {width: 100%!important;}
+
+.wkep_all {word-break: keep-all!important;}
+
+/* 211112(s) */
+.txtTop{
+    font-size:14px;
+    line-height:1.25rem;
+}
+.txtTitle {
+    font-size:32px;
+    line-height:45px;
+    box-sizing: border-box;
+    margin-bottom:25px;
+    width: 70%;
+    word-break: keep-all;
+}
+.txtNorm {
+    font-size:20px;
+    line-height: 26px;
+}
+.txtEmp{
+    font-size:18px;   
+    display: inline-block;    
+}
+.txtMid {
+    font-size:16px;
+    line-height: 23px;
+}
+.txtContent{
+    font-size:14px;
+    line-height:24px;
+}
+.txtSmall {
+    font-size:13px;
+    line-height: 20px;;
+}
+
+/* // 211112(e) */

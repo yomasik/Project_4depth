@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* 211117(s) */
+@media all and (max-width: 375px){
+    .txtTitle {        
+        width: 80%;
+}
+.img_absol {
+    width: 25%;
+}
+}
+/* //211117(e) */
+@media all and (max-width: 320px){
+    /* 211117(s)*/
+    .txtTitle {
+        font-size: 26px;
+        line-height: 40px;        
+    }    
+    /*---삭제 .img_absol{
+        width: 30%;
+    } */
+    /* 211117(e) */
+    .txtContent {
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .txtEmp {     
+        font-size: 16px;
+    }
+    .txtNorm {
+        font-size: 14px;;
+        line-height: 24px;
+    }
+    .txtMid {
+        font-size:14px;
+    }
+    .wrapInfoArea {        
+        margin-top: 30px;
+    }
+    footer {        
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .footerMt {
+        margin-top:20px
+    }
+    
+}

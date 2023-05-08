@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환수금 산정 상세내역</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script defer src="js/common.js"></script>
+</head>
+
+<body>
+    <section class="wrap">
+        <article class="wrapInfoArea">
+            <h2 class="txtNorm fw600 txtc">환수금 산정 상세내역</h2>
+            <div class="line"></div>            
+            <table class="tblInfo wkep_all mt10">
+                <colgroup>
+                    <col width="20%">
+                    <col width="auto">
+                    <col width="auto">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <td rowspan="2" class="border_rt txtc bg_lightblue txtContent fw400">구분</td>
+                        <td colspan="2" class="txtc bg_lightblue txtContent fw400">환수금 산정내역</td>                        
+                    </tr>                    
+                    <tr>                       
+                        <td class="txtc bg_lightblue txtContent fw400 border_rt">내역</td>                        
+                        <td class="txtc bg_lightblue txtContent fw400">금액</td>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="5" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                           산정액
+                        </th>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            퇴직수당
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>  
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금공제일시금
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>   
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            일시금
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_black fw600 txtc border_rt">
+                            소계
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>   
+                    <tr>
+                        <th rowspan="8" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                           공제액
+                        </th>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            퇴직소득세공제
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>  
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            퇴직지방소득세공제
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>   
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금대출
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            대여학자금
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금소득세공제
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금지방소득세공제
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            기타
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr> 
+                    <tr>                       
+                        <th class="txtContent txt_black fw600 txtc border_rt">
+                            소계
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <!-- 211202(s) -->
+                    <tr>
+                        <th rowspan="7" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                           가산액
+                        </th>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금소득세환급
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>  
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연금지방소득세환급
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>  
+                    <tr>          
+                        <!-- 211208(s)              -->
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            기여금과납
+                         </th>                        
+                         <!--// 211208(e)              -->
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>  
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            소득세환급
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>  
+                    <!-- //211202(e) -->
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            지방소득세환급
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>   
+                    <tr>                       
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            기타
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>                    
+                    <tr>                       
+                        <th class="txtContent txt_black fw600 txtc border_rt">
+                            소계
+                         </th>                        
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>                     
+                    <tr>
+                        <th colspan="2" class="txtContent txt_black fw600 txtc border_rt">실지급액&nbsp;<span class="txt_blue">(A)</span></th>
+                        <td   class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>               
+                </tbody>
+            </table>
+            <table class="tblInfo wkep_all mt10">
+                <colgroup>
+                    <col width="45%">
+                    <col width="auto">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtl">
+                           환수금
+                        </th>
+                        <td colspan="2" class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>                                  
+                </tbody>
+            </table>
+            <p class="txtContent fw200 txt_gray wkep_all mt20">환수 산정 내역 관련 추가문구 삽입영역입니다.
+            </p>     
+        </article>      
+        <footer class="bg_darkblue">
+            <h1 class="logofootArea txtc"><img src="images/img_logo-s.png" alt="공무원연금공단"></h1>
+            <div class="footerInfo txtc mt20">
+                <div class="footerInner txtc inblock pr25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">콜센터</p>
+                        <p class="txtEmp txt_white fw600">1588 - 4321</p>
+                    </a>
+                </div>
+                <div class="footerInner txtc inblock pl25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">홈페이지</p>
+                        <p class="txtEmp txt_white fw600">www.geps.or.kr</p>
+                    </a>
+                </div>
+                <p class="txtSmall txt_lightgray fw400 footerMt wkep_all">
+                    (63568) 제주특별자치도 서귀포시 서호중앙로 63(서호동)
+                </p>
+                <p class="txtSmall txt_lightgray fw400">
+                    Copyright(c) GEPS. All Right Reserved.
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

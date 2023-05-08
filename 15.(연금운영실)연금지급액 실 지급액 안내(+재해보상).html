@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연금지급액 실 지급액 안내</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script defer src="js/common.js"></script>
+</head>
+
+<body>
+    <section class="wrap">
+        <article class="wrapLogoArea">
+            <h1 class="logoArea"><img src="images/img_logo.png" alt="공무원연금공단"></h1>
+        </article>
+        <article class="wrapTitleArea">
+            <!-- 211215(s) -->
+            <p class="txtTop">안녕하세요,<br>
+                믿음직한 평생동행 <span class="fw600">공무원연금공단</span>입니다.
+            </p>
+            <!-- //211215(e) -->
+            <div class="contentTitle">
+                <h2 class="txtTitle txt_blue fw200">2021년 11월<br>연금지급 예정내역</h2>
+                <p class="txtContent fw600 txt_gray">연금정지&middot;과세 등 가산액과 공제금액을 반영한 <span class="txt_blue">2021년 11월</span> 연금지급 예정액을 안내드립니다.
+                </p>
+                <img src="images/img_bluescroll.png" class="img_absol">
+            </div>
+        </article>
+        <article class="wrapInfoArea">
+            <!-- 211215(s) -->
+            <p class="txt_black fw600 inblock txtEmp"> 연금지급 예정 내역</p>
+            <div class="line"></div>
+            <!-- // 211215(e) -->
+            <p class="txtContent fw400 txt_gray txtr mt10">증서번호&nbsp;<span class="txt_black">제 123456호</span></p>          
+            <div class="priceBox mt10">
+                <table class="wkep_all" style="width: 100%;">
+                    <colgroup>
+                        <col width="45%">
+                        <col width="auto">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl">
+                                입금일자
+                            </th>
+                            <td colspan="2" class="txtMid txt_black fw600 txtr">
+                                2022-02-01
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl pt10">
+                                연금지급 예정액
+                            </th>
+                            <td colspan="2" class="txtMid txt_blue fw600 txtr pt10">
+                                791,000원
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+            <table class="tblInfo wkep_all mt10">
+                <colgroup>
+                    <col width="45%">
+                    <col width="auto">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc bg_lightblue bdr">
+                            연금월액 <span class="txt_blue">(A)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc bg_lightblue bdr">
+                            가산액 <span class="txt_blue">(B)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc bg_lightblue bdr">
+                            공제금액 <span class="txt_blue">(C)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc bdr">
+                            실지급액 <span class="txt_blue">(D=A+B-C)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                           100,000원
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="accordions mt30">             
+                <div class="accordionItem mt10">
+                    <div class="accordionTitle" data-tab="item1">
+                        <p class="txtContent fw600 inblock"> 가산액 <span class="txt_blue">(B)</span> 세부내역</p>
+                        <img src="images/img_open.png" class="rotateDown vtlm fr"></img>
+                    </div>
+                    <div class="accordionContent" id="item1">                        
+                        <table class="tblInfo wkep_all" style="margin-top:0">
+                            <colgroup>
+                                <col width="45%">
+                                <col width="auto">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        구분
+                                    </th>
+                                    <th class="txtContent txt_black fw400 txtc bg_lightblue">
+                                        금액
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>      
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>       
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>  
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>       
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </div>                   
+                </div>
+
+                <div class="accordionItem mt10">
+                    <div class="accordionTitle" data-tab="item2">
+                        <p class="txtContent fw600 inblock"> 공제금액 <span class="txt_blue">(C)</span> 세부내역</p>
+                        <img src="images/img_open.png" class="rotateDown vtlm fr"></img>
+                    </div>
+                    <div class="accordionContent" id="item2">                        
+                        <table class="tblInfo wkep_all" style="margin-top:0">
+                            <colgroup>
+                                <col width="45%">
+                                <col width="auto">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        구분
+                                    </th>
+                                    <th class="txtContent txt_black fw400 txtc bg_lightblue">
+                                        금액
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>      
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>       
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>  
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>       
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       가변
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원                                        
+                                    </td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </div>                   
+                </div>
+
+              
+            </div>
+            <div class="dtlBox mt30">
+                <div class="dtlBoxInner">
+                    <p class="txtContent fw600"><span class=xclMark></span>자세한 사항</p>
+                </div>
+                <div class="dtlBoxInner" style="border-bottom: none;">
+                    <p class="txtContent fw400">
+                        자세한 사항은 공단 콜센터 (&#9742;<span class="txt_blue">1588-4321</span>) 로 문의하여 주시기 바랍니다.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <footer class="bg_darkblue">
+            <h1 class="logofootArea txtc"><img src="images/img_logo-s.png" alt="공무원연금공단"></h1>
+            <div class="footerInfo txtc mt20">
+                <div class="footerInner txtc inblock pr25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">콜센터</p>
+                        <p class="txtEmp txt_white fw600">1588 - 4321</p>
+                    </a>
+                </div>
+                <div class="footerInner txtc inblock pl25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">홈페이지</p>
+                        <p class="txtEmp txt_white fw600">www.geps.or.kr</p>
+                    </a>
+                </div>
+                <p class="txtSmall txt_lightgray fw400 footerMt wkep_all">
+                    (63568) 제주특별자치도 서귀포시 서호중앙로 63(서호동)
+                </p>
+                <p class="txtSmall txt_lightgray fw400">
+                    Copyright(c) GEPS. All Right Reserved.
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

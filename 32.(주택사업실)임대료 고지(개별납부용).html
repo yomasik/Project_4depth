@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공무원 임대아파트 월임대료 납부 안내</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script defer src="js/common.js"></script>
+</head>
+
+<body>
+    <section class="wrap">
+        <article class="wrapLogoArea">
+            <h1 class="logoArea"><img src="images/img_logo.png" alt="공무원연금공단"></h1>
+        </article>
+        <article class="wrapTitleArea">
+            <p class="txtTop">안녕하세요, <span class="fw600">홍길동</span>님<br>
+                믿음직한 평생동행 <span class="fw600">공무원연금공단</span>입니다.</p>
+            <div class="contentTitle">
+                <div class="inblock supTit">
+                    <p class="txtSmall fw400 txt_blue">개별납부용</p>
+                </div>
+                <h2 class="txtTitle txt_blue fw200">공무원 임대아파트<br>월임대료 납부 안내</h2>
+                <p class="txtContent fw600 txt_gray">납부기한 이후 납부할 경우 연체료 조견표 상 실제 납부일자의 연체료를 납부금액에 더하여 납부하셔야 합니다.
+                </p>
+                <img src="images/img_bluescroll.png" class="img_absol">
+            </div>
+        </article>
+        <article class="wrapInfoArea">
+            <div class="infoBox">
+                <div class="nameArea inblock">
+                    <p class="txt_blue fw600 inblock txtEmp">홍길동</p>
+                </div>
+                <p class="txt_gray fw600 inblock txtEmp">님의 납부정보</p>
+            </div>
+            <p class="txtContent fw400 txt_gray txtr mt10">고객번호&nbsp;<span class="txt_black">123456</span></p>
+            <!-- 211208(s) -->
+            <div class="popupArea mt10">
+                <div class="popToolTip dir03 wkep_all">
+                    <img src="images/bullet_que.png" class="mr5 vtlm">
+                    <span class="txtContent fw800 ">납부금액</span>
+                    <span class="fr" id="layer_close_btn"><img src="images/img_popclose.png"></span>
+                    <p class="txtContent txt_gray fw400 ">
+                        당월 금액 <span class="txt_blue"> + </span>전월 미납금액<span class="txt_blue"> - </span>과납금액<span
+                            class="txt_blue"> = </span>납부금액
+                    </p>
+                </div>
+            </div>
+            <div class="priceBox mt10">
+                <table class="wkep_all mt10" style="width: 100%;">
+                    <colgroup>
+                        <col width="45%">
+                        <col width="auto">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl vtlt">
+                                납부금액 
+                                <a href="javascript:;" class="txtSmall fw400 txt_gray vtlm layer_open_btn">
+                                    <img src="images/bullet_que.png" class="vtlm ml5 ">
+                                </a>
+                            </th>
+                            <td class="txtMid txt_blue fw600 txtr">
+                                100,000원
+                                   
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl pt10">
+                                납부기한
+                            </th>
+                            <td class="txtMid txt_black fw600 txtr pt10">
+                                2021-07-19 까지
+                            </td>
+                        </tr>
+                </table>
+                <table class="tblInfo wkep_all mt20">
+                    <colgroup>
+                        <col width="45%">
+                        <col width="auto">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl">
+                                단지명
+                            </th>
+                            <td colspan="2" class="txtContent txt_black fw600 txtr">
+                                연금단지
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl">
+                                동호수
+                            </th>
+                            <td colspan="2" class="txtContent txt_black fw600 txtr">
+                                115동 1501호
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl">
+                                주소
+                            </th>
+                            <td colspan="2" class="txtContent txt_black fw600 txtr">
+                                제주특별자치도 서귀포시 서호중앙로 63
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- // 211208(e) -->
+            <!-- 211208(s)  아코디언 계좌 삭제후 삽입 -->
+            <div class="dtlBox mt30">
+                <div class="dtlBoxInner">
+                    <p class="txtContent fw600">납입계좌</p>
+                </div>
+                <div class="dtlBoxInner" style="border-bottom: none;">
+                    <table style="width:100%">
+                        <colgroup>
+                            <col width="40%">
+                            <col width="auto">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">국민은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">우리은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">NH농협은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">KEB하나은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- <dl class="mt30">
+                <dt class="acc_dt">
+                    <p class="txtContent fw600 inblock">납부은행 가상계좌 안내</p><span></span>
+                </dt>
+                <dd class="acc_dd">
+                    <table style="width:100%">
+                        <colgroup>
+                            <col width="40%">
+                            <col width="auto">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">국민은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">우리은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">NH농협은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                            <tr>
+                                <th class="txtContent txt_gray fw400 txtl">KEB하나은행</th>
+                                <td class="txtContent txt_black fw600 txtr">123-456-7890</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </dd>
+            </dl> -->
+            <p class="txtEmp fw600 inblock mt30">납부금액 상세내역</p>
+            <table class="tblInfo wkep_all mt10">
+                <colgroup>
+                    <col width="30%">
+                    <col width="30%">
+                    <col width="auto">
+                </colgroup>
+                <tbody>
+                    <tr style="border-bottom:0;">
+                        <th rowspan="3" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                            당월금액
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            월임대료
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            빌트인
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                            소계 <span class="txt_blue fw600">(A)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr style="border-bottom:0;">
+                        <th rowspan="3" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                            전월 미납금액
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            월임대료
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtc border_rt">
+                            연체료
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                            소계 <span class="txt_blue fw600">(B)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                            과납금액 <span class="txt_blue fw600">(C)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                            납부금액 <span class="txt_blue fw600">(A + B - C)</span>
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            100,000원
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- // 211208(e)-->
+            <div class="accordions mt30">
+                <!-- 211208(s) -->
+                <!-- <div class="accordionItem">
+                    <div class="accordionTitle" data-tab="item1">
+                        <p class="txtContent fw600 inblock">납부금액 상세내역</p>
+                        <img src="images/img_open.png" class="rotateDown vtlm fr"></img>
+                    </div>
+                    <div class="accordionContent" id="item1">
+                        <table class="tblInfo wkep_all" style="margin-top:0" >
+                            <colgroup>
+                                <col width="30%">
+                                <col width="30%">
+                                <col width="auto">
+                            </colgroup>
+                            <tbody>
+                                <tr style="border-bottom:0;">
+                                    <th rowspan="3" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        당월금액
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       월임대료
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                        빌트인
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>    
+                                <tr>
+                                    <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        소계 <span class="txt_blue fw600">(A)</span>
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>                            
+                                <tr style="border-bottom:0;">
+                                    <th rowspan="3" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        전월 미납금액
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                       월임대료
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                        연체료
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>    
+                                <tr>
+                                    <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        소계 <span class="txt_blue fw600">(B)</span>
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        과납금액 <span class="txt_blue fw600">(C)</span>
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <th colspan="2" class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        납부금액 <span class="txt_blue fw600">(A + B - C)</span>
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr> 
+                            </tbody>
+                        </table>
+                    </div>
+                </div> -->
+
+                <div class="accordionItem mt10">
+                    <!-- 211208(s) -->
+                    <div class="accordionTitle" data-tab="item1">
+                        <!-- 211208(s) -->
+                        <p class="txtContent fw600 inblock">납부일자별 연체료 조견표</p>
+                        <img src="images/img_open.png" class="rotateDown vtlm fr"></img>
+                    </div>
+                    <!-- 211208(s) -->
+                    <div class="accordionContent" id="item1">
+                        <!-- 211208(e) -->
+                        <p class="txtContent fw400 txt_black txtr">2021년 연체율:&nbsp;<span class="txt_blue">4.4%</span>
+                        </p>
+                        <table class="tblInfo wkep_all" style="margin-top:0">
+                            <colgroup>
+                                <col width="45%">
+                                <col width="auto">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th class="txtContent txt_black fw400 txtc bg_lightblue border_rt">
+                                        일자
+                                    </th>
+                                    <th class="txtContent txt_black fw400 txtc bg_lightblue">
+                                        연체료
+                                    </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                        2021년 11월 11일
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                        2021년 11월 11일
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="txtContent txt_gray fw400 txtc border_rt">
+                                        2021년 11월 11일
+                                    </th>
+                                    <td class="txtContent txt_black fw600 txtr">
+                                        100,000원
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="accordionItem mt10">
+                    <!-- 211208(s) -->
+                    <div class="accordionTitle" data-tab="item2">
+                        <!-- 211208(e) -->
+                        <p class="txtContent fw600 inblock">공무원임대아파트 월임대료 납부 관련 안내
+                        </p>
+                        <img src="images/img_open.png" class="rotateDown vtlm fr"></img>
+                    </div>
+                    <!-- 211208(s) -->
+                    <div class="accordionContent" id="item2">
+                        <!-- 211208(e) -->
+                        <p class="txt_check  txtContent fw400">
+                            납부계좌는 입주자가 예금주인 가상계좌이며,
+                            납부기한 경과 이후에는「주택사업운영규정」제31조에 의해 연체료가 가산됩니다.</br>
+                            (연체일수는 납부기한 다음날부터 납부하시는날까지 계산됩니다.)
+                        </p>
+                        <div class="contentBox bg_lightblue" style="margin:10px 0px 0px">
+                            <p class="txtContent fw400 txt_lightblue">연체료 : 미납원금 × 연체일수 / 365 × 연체료율</br>(단, 10원미만 절사)
+                            </p>
+                        </div>
+                        <p class="txt_check  txtContent fw400 mt20">
+                            월임대료 미납시 연체료부터 선공제 됩니다.
+                        </p>
+                        <p class="txt_check  txtContent fw400 mt20">
+                            미납 연체료는 납부하지 않은 월임대료에 대한 고지전월 말일까지의 연체료이며, 상기 조견표 상의 연체료는 당월 납부에 따른 연체료 입니다.
+                        </p>
+                        <p class="txt_check  txtContent fw400 mt20">
+                            임대료 연체 시 연체료부터 선공제되며, 3개월 이상 연체시에는 입주자격을 상실하여 계약이 해지될 수 있으니 반드시 납부기한 내에 납부하시기 바랍니다.
+                        </p>
+                        <p class="txt_check  txtContent fw400 mt20">
+                            임대료 납부확인서는 '공단 홈페이지 <span class="txt_blue">&rarr;</span> 내연금보기 <span
+                                class="txt_blue">&rarr;</span> 인증서로그인 <span class="txt_blue">&rarr;</span> 고객지원시스템 <span
+                                class="txt_blue">&rarr;</span> 주택/분양/임대 <span class="txt_blue">&rarr;</span> 임대주택 <span
+                                class="txt_blue">&rarr;</span> 입주신청결과 확인(재계약신청 및 계약서/고지서)에서 확인 및 출력이 가능합니다
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="dtlBox mt30">
+                <div class="dtlBoxInner">
+                    <p class="txtContent fw600"><span class=xclMark></span>자세한 사항</p>
+                </div>
+                <div class="dtlBoxInner" style="border-bottom: none;">
+                    <p class="txtContent fw400">
+                        자세한 사항은 공단 콜센터 (&#9742;<span class="txt_blue">1588-4321</span>) 로 문의하여 주시기 바랍니다.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <footer class="bg_darkblue">
+            <h1 class="logofootArea txtc"><img src="images/img_logo-s.png" alt="공무원연금공단"></h1>
+            <div class="footerInfo txtc mt20">
+                <div class="footerInner txtc inblock pr25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">콜센터</p>
+                        <p class="txtEmp txt_white fw600">1588 - 4321</p>
+                    </a>
+                </div>
+                <div class="footerInner txtc inblock pl25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">홈페이지</p>
+                        <p class="txtEmp txt_white fw600">www.geps.or.kr</p>
+                    </a>
+                </div>
+                <p class="txtSmall txt_lightgray fw400 footerMt wkep_all">
+                    (63568) 제주특별자치도 서귀포시 서호중앙로 63(서호동)
+                </p>
+                <p class="txtSmall txt_lightgray fw400">
+                    Copyright(c) GEPS. All Right Reserved.
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

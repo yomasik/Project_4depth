@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입대주택 계약만료 및 갱신 안내</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script defer src="js/common.js"></script>
+</head>
+
+<body>
+    <section class="wrap">
+        <article class="wrapLogoArea">
+            <h1 class="logoArea"><img src="images/img_logo.png" alt="공무원연금공단"></h1>
+        </article>
+        <article class="wrapTitleArea">
+            <p class="txtTop">안녕하세요, <span class="fw600">홍길동</span>님<br>
+                믿음직한 평생동행 <span class="fw600">공무원연금공단</span>입니다.</p>
+            <div class="contentTitle wkep_all">
+                <h2 class="txtTitle txt_blue fw200">임대주택 <br>계약만료 및 갱신 안내문</h2>
+                <p class="txtContent fw600 txt_gray">홍길동 고객님의 임대주택 계약기간이 <span class="txt_blue">YYYY년 MM월 DD일</span>부로
+                    만료됩니다.<br>늦어도 계약기간만료 <span class="txt_pink">2개월전</span>까지 재계약신청 또는 퇴거신청서를 작성하여 제출하여 주시기 바랍니다.
+                </p>
+                <img src="images/img_bluescroll.png" class="img_absol">
+            </div>
+        </article>
+        <article class="wrapInfoArea">
+            <div class="infoBox ">
+                <div class="nameArea inblock">
+                    <p class="txt_blue fw600 inblock txtEmp">홍길동</p>
+                </div>
+                <p class="txt_gray fw600 inblock txtEmp">님의 계약 정보</p>
+            </div>
+            <!-- 211208(s)   -->
+            <div class="priceBox mt10">
+                <p class="txtContent txt_gray fw400 txtc">
+                    계약만료일
+                </p>
+                <div class="priceInner" style="display: block;">
+                    <p class="txt_blue fw600 txtc mt10">
+                        2021-10-21
+                    </p>
+                </div>
+            </div>
+            <!-- // 211208(e) -->
+            <ul class="tabs clfix mt30">
+                <li class="btnTab on" data-tab="tab-1" style="width: 50%;">
+                    <p>재계약신청 방법</p>
+                </li>
+                <li class="btnTab" data-tab="tab-2" style="width: 50%;">
+                    <p>퇴거신청 방법</p>
+                </li>
+            </ul>
+            <div class="contentTab on" id="tab-1">
+                <table class="tblStep" style="border-top: 1px solid #dfdfdf;">
+                    <colgroup>
+                        <col width="30%">
+                        <col width="auto">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">01</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                공무원연금공단 홈페이지
+                                (www.geps.or.kr)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">02</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                내 연금 보기
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">03</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                인증서 로그인
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">04</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                고객지원 시스템
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">05</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                주택분양/임대
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">06</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                임대주택
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">07</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                입주신청결과 확인
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">08</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                재계약 작성
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="contentBox bg_lightblue mt20">
+                    <p class="txtContent fw400 txt_lightblue">
+                        재계약의 경우 「주택임대차보호법」 제6조의3(계약갱신요구권 등)에 의거 계약갱신을 요구한 것으로 간주하며 이에 동의하지 않을 경우 재계약이 불가합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="contentTab" id="tab-2">
+                <table class="tblStep" style="border-top: 1px solid #dfdfdf;">
+                    <colgroup>
+                        <col width="30%">
+                        <col width="auto">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">01</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                공무원연금공단 홈페이지
+                                (www.geps.or.kr)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">02</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                내 연금 보기
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">03</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                인증서 로그인
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">04</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                고객지원 시스템
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">05</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                주택분양/임대
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">06</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                임대주택
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="txtc" style="line-height:0px;">
+                                <img src="images/img_step.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="txtc">
+                                <p class="txtStepSup txt_gray fw400">STEP</p>
+                                <p class="txtStep txt_gray fw800">07</p>
+                            </th>
+                            <td class="txtl txtContent fw400">
+                                퇴거신청서 작성
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="contentBox bg_lightblue mt20">
+                    <p class="txtContent fw400 txt_lightblue">
+                        계약만료 후 퇴거지연시 공단 규정 및 계약서에 따라 연체료가 부과될 수 있으며, 기타 문의사항은 해당지부 담당자에게 문의하시기 바랍니다.
+                    </p>
+                </div>
+            </div>
+            <div class="dtlBox mt20">
+                <div class="dtlBoxInner">
+                    <p class="txtContent fw600"><span class=xclMark></span>자세한 내용</p>
+                </div>
+                <div class="dtlBoxInner" style="border-bottom: none;">
+                    <p class="txtContent fw400">
+                        자세한 내용은 공단 콜센터 (&#9742;<span class="txt_blue">1588-4321</span>) 로 문의하여 주시기 바랍니다.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <footer class="bg_darkblue">
+            <h1 class="logofootArea txtc"><img src="images/img_logo-s.png" alt="공무원연금공단"></h1>
+            <div class="footerInfo txtc mt20">
+                <div class="footerInner txtc inblock pr25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">콜센터</p>
+                        <p class="txtEmp txt_white fw600">1588 - 4321</p>
+                    </a>
+                </div>
+                <div class="footerInner txtc inblock pl25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">홈페이지</p>
+                        <p class="txtEmp txt_white fw600">www.geps.or.kr</p>
+                    </a>
+                </div>
+                <p class="txtSmall txt_lightgray fw400 footerMt wkep_all">
+                    (63568) 제주특별자치도 서귀포시 서호중앙로 63(서호동)
+                </p>
+                <p class="txtSmall txt_lightgray fw400">
+                    Copyright(c) GEPS. All Right Reserved.
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

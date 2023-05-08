@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021년도 연금소득 연말정산 결과</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script defer src="js/common.js"></script>
+</head>
+
+<body>
+    <section class="wrap">
+        <article class="wrapInfoArea">
+            <h2 class="txtNorm fw600 txtc">2021년도 연금소득 연말정산 결과</h2>
+            <div class="line"></div>
+            <p class="txtContent fw600 txt_gray txtc">2021년도 연금소득세 연말정산 결과를 아래와 같이 안내합니다.
+            </p>
+            <div class="priceBox mt20 txtc">
+                <table class="wkep_all" style="width: 100%; margin-top: 0;">
+                    <colgroup>
+                        <col width="60%">
+                        <col width="auto">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th class="txtContent txt_gray fw400 txtl">
+                                공무원연금공단 사업자등록번호
+                            </th>
+                            <td class="txtContent txt_black fw600 txtr">
+                                220-82-00935
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <table class="tblInfo wkep_all mt30">
+                <colgroup>
+                    <col width="45%">
+                    <col width="auto">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtl">
+                            연금증서번호
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            120405040
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtl">
+                            성명
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            홍길동
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtContent txt_gray fw400 txtl">
+                            주민등록번호
+                        </th>
+                        <td class="txtContent txt_black fw600 txtr">
+                            58*****-*******
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="tblInfo resultTbl mt30">
+                <colgroup>
+                    <col style="width:57%;">
+                    <col style="width:43%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th class="txtContent txt_black fw400 txtc bg_lightblue">
+                            구분
+                        </th>
+                        <th class="txtContent txt_black fw400 txtc bg_lightblue">
+                            금액
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">①&nbsp;</span>
+                            총연금액 <img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">18,823,300원</td>
+                    </tr>
+                    <!-- 211215(s)  산정방법 해당 td colspan=2 로 수정-->
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            과세대상연금액(2002년 이후 기여금 납부분에 대한 연금액)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">②&nbsp;</span>
+                            연금소득공제액<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">874,100원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            소득세법 제47조의2에 의한 공제액
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">③&nbsp;</span>
+                            연금소득금액<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">900,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ① 총연금액 - ② 연금소득공제 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">④&nbsp;</span>
+                            소득공제 계<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">781,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            인적공제(기본공제 + 추가공제) 합계액
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑤&nbsp;</span>
+                            과세표준액<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">918,150원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ③ 연금소득금액 - ④ 소득공제 계
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑥&nbsp;</span>
+                            산출세액<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">523,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            소득세법 제55조(세율)에 의한 세액
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑦&nbsp;</span>
+                            세액공제 계<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">87,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            세액공제(자녀세액+표준세액) 합계액
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑧&nbsp;</span>
+                            결정소득세
+                            <img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">823,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ⑥ 산출세액 - ⑦ 세액공제 계<br> (※ 원단위 절사)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑨&nbsp;</span>
+                            결정지방소득세<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">123,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ⑧ 결정소득세 X 10%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑩&nbsp;</span>
+                            기납부소득세<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">618,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            매월 연금지급시 원천징수한 소득세
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑪&nbsp;</span>
+                            기납부지방소득세<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">61,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ⑩ 기납부소득세×10%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑫&nbsp;</span>
+                            차감징수소득세<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">-295,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ⑧ 결정소득세 - ⑩ 기납부소득세
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑬&nbsp;</span>
+                            차감징수지방소득세<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">-29,300원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ⑫ 차감징수소득세 X 10%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txtContent txt_black fw600 txtl">
+                            <span class="txt_blue">⑭&nbsp;</span>
+                            차감징수세액 계<img src="images/img_open.png" class="vtlm arrow ml10">
+                        </td>
+                        <td class="txtContent txt_black fw600 txtr">-325,500원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtContent fw400 txt_gray bg_gray wkep_all" style="padding:10px 25px;">
+                            <p class="txtContent fw600 ">산정방법</p>
+                            ⑫ 차감징수소득세 + ⑬ 차감징수지방소득세<br>
+                            (※ 징수세액이 마이너스(-)인 경우 환급대상입니다.)
+                        </td>
+                    </tr>
+                    <!-- //211215(e)  산정방법 해당 td colspan=2 로 수정-->
+                </tbody>
+            </table>
+            <div class="contentBox bg_lightblue mt30">
+                <p class="txtContent fw600 txt_black txt_check">공단 홈페이지에서 연말정산 결과 확인 및 「연금소득원천징수 영수증」을 출력(2월부터) 하실 수 있습니다. 
+                </p>
+            </div>
+            <table class="tblStep mt10" style="border-top: 1px solid #dfdfdf;">
+                <colgroup>
+                    <col width="30%">
+                    <col width="auto">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th class="txtc">
+                            <p class="txtStepSup txt_gray fw400">STEP</p>
+                            <p class="txtStep txt_gray fw800">01</p>
+                        </th>
+                        <td class="txtl txtContent fw400">
+                            공무원연금공단 홈페이지
+                            (www.geps.or.kr)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtc" style="line-height:0px;">
+                            <img src="images/img_step.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtc">
+                            <p class="txtStepSup txt_gray fw400">STEP</p>
+                            <p class="txtStep txt_gray fw800">02</p>
+                        </th>                                    
+                        <td class="txtl txtContent fw400">
+                            내연금보기(조회/신청)
+                        </td>                                   
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtc" style="line-height:0px;">
+                            <img src="images/img_step.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtc">
+                            <p class="txtStepSup txt_gray fw400">STEP</p>
+                            <p class="txtStep txt_gray fw800">03</p>
+                        </th>
+                        <td class="txtl txtContent fw400">
+                            로그인(공동인증서 등)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtc" style="line-height:0px;">
+                            <img src="images/img_step.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtc">
+                            <p class="txtStepSup txt_gray fw400">STEP</p>
+                            <p class="txtStep txt_gray fw800">04</p>
+                        </th>
+                        <td class="txtl txtContent fw400">
+                            연금정보
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="txtc" style="line-height:0px;">
+                            <img src="images/img_step.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="txtc">
+                            <p class="txtStepSup txt_gray fw400">STEP</p>
+                            <p class="txtStep txt_gray fw800">05</p>
+                        </th>
+                        <td class="txtl txtContent fw400">
+                            연금과세
+                        </td>
+                    </tr>                                                              
+                </tbody>
+            </table>
+            <div class="contentBox bg_lightblue mt30">
+                <p class="txtContent fw600 txt_black txt_check"> “자녀의 근로소득 연말정산시 부양가족(소득공제대상)” 가능여부<br>
+                    <span class="fw400">
+                        - 연금소득자가 <span class="fw600">공무원연금소득</span>만 있을 경우 <span class="fw600">③ 연금소득금액</span>이 100만원 이하이고, 만60세 이상이면(장애인일 경우 나이제한 없음) 가능합니다.
+                    </span>
+                </p>
+            </div>
+            <p class="txtc mt20 txtMid fw600">2021년 11월 12일</p>
+            <div class="txtr mt30">
+                <p class="txtMid fw600">공무원연금공단 이사장
+                    <span class="stampArea">
+                        <img src="images/img_stamp.png" class="vtlm">
+                    </span>
+                </p>
+            </div>
+        </article>
+        <footer class="bg_darkblue">
+            <h1 class="logofootArea txtc"><img src="images/img_logo-s.png" alt="공무원연금공단"></h1>
+            <div class="footerInfo txtc mt20">
+                <div class="footerInner txtc inblock pr25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">콜센터</p>
+                        <p class="txtEmp txt_white fw600">1588 - 4321</p>
+                    </a>
+                </div>
+                <div class="footerInner txtc inblock pl25">
+                    <a href="javascript:;" class="footLink">
+                        <p class="txtContent txt_white fw400">홈페이지</p>
+                        <p class="txtEmp txt_white fw600">www.geps.or.kr</p>
+                    </a>
+                </div>
+                <p class="txtSmall txt_lightgray fw400 footerMt wkep_all">
+                    (63568) 제주특별자치도 서귀포시 서호중앙로 63(서호동)
+                </p>
+                <p class="txtSmall txt_lightgray fw400">
+                    Copyright(c) GEPS. All Right Reserved.
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

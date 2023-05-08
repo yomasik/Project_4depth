@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+@font-face { 
+  font-family:'AppleSDGothicNeo'; 
+  font-style: normal; 
+  font-display: swap; /* 웹 폰트 로딩 여부와 관계없이 항상 텍스트 노출 */
+  font-weight: 200;
+  src: url("font/AppleSDGothicNeoL.eot"); /* IE9 Compat Modes */
+  src: url("font/AppleSDGothicNeoL.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("font/AppleSDGothicNeoL.woff2") format('woff2'), /* Super Modern Browsers */
+       url("font/AppleSDGothicNeoL.woff") format('woff'), /* Modern Browsers */
+       url("font/AppleSDGothicNeoL.ttf") format('truetype'); /* Fallback Font */
+} 
+
+@font-face { 
+   font-family:'AppleSDGothicNeo'; 
+   font-style: normal; 
+   font-display: swap;
+   font-weight: 400;
+   src: url("font/AppleSDGothicNeoM.eot");
+   src: url("font/AppleSDGothicNeoM.eot?#iefix") format('embedded-opentype'),
+        url("font/AppleSDGothicNeoM.woff2") format('woff2'),
+        url("font/AppleSDGothicNeoM.woff") format('woff'),
+        url("font/AppleSDGothicNeoM.ttf") format('truetype');
+}
+
+@font-face { 
+   font-family:'AppleSDGothicNeo'; 
+   font-style: normal; 
+   font-display: swap;
+   font-weight: 600;
+   src: url("font/AppleSDGothicNeoB.eot");
+   src: url("font/AppleSDGothicNeoB.eot?#iefix") format('embedded-opentype'),
+        url("font/AppleSDGothicNeoB.woff2") format('woff2'),
+        url("font/AppleSDGothicNeoB.woff") format('woff'),
+        url("font/AppleSDGothicNeoB.ttf") format('truetype');
+}
+
+@font-face { 
+   font-family:'AppleSDGothicNeo'; 
+   font-style: normal; 
+   font-display: swap;
+   font-weight: 800;
+   src: url("font/AppleSDGothicNeoEB.eot");
+   src: url("font/AppleSDGothicNeoEB.eot?#iefix") format('embedded-opentype'),
+        url("font/AppleSDGothicNeoEB.woff2") format('woff2'),
+        url("font/AppleSDGothicNeoEB.woff") format('woff'),
+        url("font/AppleSDGothicNeoEB.ttf") format('truetype');
+}
+
+
+@font-face { 
+  font-family:'Noto Sans KR'; 
+  font-style: normal; 
+  font-display: swap; /* 웹 폰트 로딩 여부와 관계없이 항상 텍스트 노출 */
+  font-weight: 200;
+  src: url("font/NotoKR-Light/notokr-light.eot"); /* IE9 Compat Modes */
+  src: url("font/NotoKR-Light/notokr-light.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("font/NotoKR-Light/notokr-light.woff2") format('woff2'), /* Super Modern Browsers */
+       url("font/NotoKR-Light/notokr-light.woff") format('woff'), /* Modern Browsers */
+       url("font/NotoKR-Light/notokr-light.ttf") format('truetype'); /* Fallback Font */
+} 
+@font-face { 
+  font-family:'Noto Sans KR'; 
+  font-style: normal; 
+  font-display: swap; /* 웹 폰트 로딩 여부와 관계없이 항상 텍스트 노출 */
+  font-weight: 400;
+  src: url("font/NotoKR-Regular/notokr-regular.eot"); /* IE9 Compat Modes */
+  src: url("font/NotoKR-Regular/notokr-regular.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("font/NotoKR-Regular/notokr-regular.woff2") format('woff2'), /* Super Modern Browsers */
+       url("font/NotoKR-Regular/notokr-regular.woff") format('woff'), /* Modern Browsers */
+       url("font/NotoKR-Regular/notokr-regular.ttf") format('truetype'); /* Fallback Font */
+} 
+@font-face { 
+  font-family:'Noto Sans KR'; 
+  font-style: normal; 
+  font-display: swap; /* 웹 폰트 로딩 여부와 관계없이 항상 텍스트 노출 */
+  font-weight: 600;
+  src: url("font/NotoKR-Medium/notokr-medium.eot"); /* IE9 Compat Modes */
+  src: url("font/NotoKR-Medium/notokr-medium.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("font/NotoKR-Medium/notokr-medium.woff2") format('woff2'), /* Super Modern Browsers */
+       url("font/NotoKR-Medium/notokr-medium.woff") format('woff'), /* Modern Browsers */
+       url("font/NotoKR-Medium/notokr-medium.ttf") format('truetype'); /* Fallback Font */
+}  
+@font-face { 
+  font-family:'Noto Sans KR'; 
+  font-style: normal; 
+  font-display: swap; /* 웹 폰트 로딩 여부와 관계없이 항상 텍스트 노출 */
+  font-weight: 800;
+  src: url("font/NotoKR-Bold/notokr-bold.eot"); /* IE9 Compat Modes */
+  src: url("font/NotoKR-Bold/notokr-bold.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */
+       url("font/NotoKR-Bold/notokr-bold.woff2") format('woff2'), /* Super Modern Browsers */
+       url("font/NotoKR-Bold/notokr-bold.woff") format('woff'), /* Modern Browsers */
+       url("font/NotoKR-Bold/notokr-bold.ttf") format('truetype'); /* Fallback Font */
+}
